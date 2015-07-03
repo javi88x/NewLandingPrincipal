@@ -22,7 +22,7 @@ $mail->Host = 'smtp.office365.com';  // Specify main and backup SMTP servers
 $mail->SMTPAuth = true;                               // Enable SMTP authentication
 $mail->Username = 'envios@uninpahu.edu.co';                 // SMTP username
 $mail->Password = 'Gaco5970';                           // SMTP password
-$mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
+$mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
 $mail->Port = 587;                                    // TCP port to connect to
 
 $mail->From = 'envios@uninpahu.edu.co';
